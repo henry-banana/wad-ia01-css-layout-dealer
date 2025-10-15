@@ -49,7 +49,7 @@ Cấu trúc thư mục
 │  ├─ css/
 │  │  └─ style.css        # Nguồn Tailwind + class tuỳ chỉnh (@layer components)
 │  └─ assets/             # Chứa hình ảnh (envelop-border.png, stamp.png, ...)
-├─ dist/                  # CSS đã build ra (bị ignore bởi git)
+├─ dist/                  # CSS đã build ra
 ├─ tailwind.config.js     # Mở rộng màu sắc, font, scan content
 ├─ package.json           # Scripts build/watch
 └─ .gitignore             # Bỏ qua node_modules, dist, logs, ...

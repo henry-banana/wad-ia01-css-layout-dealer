@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "tailwindcss -i ./src/css/style.css -o ./dist/output.css",
-    "watch": "tailwindcss -i ./src/css/style.css -o ./dist/output.css --watch"
+    "watch": "tailwindcss -i ./src/css/style.css -o ./dist/output.css --watch",
+    "start": "npm run build && vercel dev"
   },
   "devDependencies": {
     "tailwindcss": "^4.1.14"
