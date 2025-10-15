@@ -34,3 +34,4 @@ coverage/
 
 # Tailwind artifacts (if any processors output temp)
 /tailwind-generated/
+.vercel
