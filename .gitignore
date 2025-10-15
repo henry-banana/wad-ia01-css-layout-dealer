@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+/.parcel-cache/
+/.cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Coverage & reports
+coverage/
+*.lcov
+
+# Misc
+*.local
+*.tmp
+*.swp
+
+# Tailwind artifacts (if any processors output temp)
+/tailwind-generated/

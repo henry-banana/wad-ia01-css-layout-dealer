@@ -1,0 +1,11 @@
+{
+  "name": "dealers-local-setup",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./src/css/style.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/css/style.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.14"
+  }
+}
